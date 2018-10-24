@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style="background-color:blue;color:red;padding:40px;width=60px;">
+<h2>El Secuencial De Los Patrones</h2>
+
+<p id="demo"></p>
+</div>
+<script>
+var text = "";
+var i;
+for (i = 1; i <= 8; i++) 
+{
+   for(x=1;x<=i;x++)
+      {
+         text += "*";
+      }
+         text += "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
